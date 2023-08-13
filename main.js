@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             amount: amount,
             description: description,
             category: category,
-            timestamp: new Date().toISOString();
+            timestamp: new Date().toISOString()
         };
 
         let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
